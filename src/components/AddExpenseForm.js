@@ -23,7 +23,7 @@ const AddExpenseForm = (props) => {
 
     if (totalExpenses + expense.cost > budget) {
       alert(
-        `Expense cannot be greater than the budget. Total expenses: ${
+        `The value cannot exceed remaining funds ${currency} ${
           budget - totalExpenses
         }`
       );
