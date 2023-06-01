@@ -19,7 +19,7 @@ const AddExpenseForm = (props) => {
       return (total += item.cost);
     }, 0);
 
-    console.log(totalExpenses + expense.cost, "hddjdhjhd");
+   
 
     if (totalExpenses + expense.cost > budget) {
       alert(
