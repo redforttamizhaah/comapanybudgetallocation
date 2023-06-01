@@ -17,7 +17,7 @@ const Budget = () => {
 
   const handleSaveClick = (value) => {
     if (totalExpenses > value) {
-      alert("Expense cannot be greater than the budget. Total expenses");
+      alert("You cannot reduce the budget value lower than the spending");
     } else {
       dispatch({
         type: "SET_BUDGET",
