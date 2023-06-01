@@ -56,7 +56,7 @@ export const AppReducer = (state, action) => {
       };
 
     case "SET_CURRENCY":
-      console.log("action.payload", action.payload);
+      
       return {
         ...state,
         currency: action.payload,
