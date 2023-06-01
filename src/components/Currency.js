@@ -8,7 +8,6 @@ const Dropdown = () => {
 
   const handleDropdownChange = (event) => {
     setSelectedValue(event.target.value);
-    console.log("event", event.target.value);
     dispatch({
       type: "SET_CURRENCY",
       payload: event.target.value,
